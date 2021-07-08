@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const ytdl = require('ytdl-core');
 const YouTube = require("simple-youtube-api");
-const { prefix, token, youtube_api_key } = require('./config.json');
+const { prefix } = require('./config.json');
 
 client.on('ready', () => {
     console.log(`Bot tag: ${client.user.tag}`);
