@@ -1,5 +1,3 @@
 {
-	"prefix": "yt:",
-	"token": "aaa",
-    "youtube_api_key": "bbb"
+	"prefix": "yt:"
 }
